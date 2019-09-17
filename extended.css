@@ -1,0 +1,70 @@
+
+body {
+
+
+}
+#maincontainer {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-image: url(/images/americanflag.jpeg);
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat;
+
+
+}
+
+#humanity {
+    margin-left: 33rem !important;
+    color: aliceblue;
+}
+
+#campaignphoto {
+    max-width: 100px !important;
+    height: auto !important;
+    margin-left: 36rem !important;
+
+}
+
+#navbar {
+    width: 100%;
+
+}
+
+
+
+#mainphoto {
+    object-fit: fill !important;
+    background-image: url(/images/Shrek_announce_bid_for_president_2_1455754661573_7057242_ver1.0.jpg);
+    height: 50rem;
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-position-y: 0rem;
+
+}
+
+#sloganstatement {
+    /* height: 300px !important; */
+    margin-top: 30rem;
+    margin-left: 12rem !important;
+    font-size: 6rem;
+    color: antiquewhite;
+
+}
+
+#secondcontainer {
+    height: 800px;
+    background-color: rgb(216, 216, 216);
+}
+
+#cardplacement {
+    margin-top: 9rem;
+    margin-left: 2rem;
+}
+
+#videocontainer {
+    height: 800px;
+    background-color: black;
+}
