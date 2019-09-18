@@ -7,7 +7,7 @@ body {
     width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    background-image: url(/images/americanflag.jpeg);
+    background-image: url(images/americanflag.jpeg);
     background-size: cover ;
     background-position: center ;
     background-repeat: no-repeat;
