@@ -1,40 +1,67 @@
 
 body {
+    background-color: rgb(236, 236, 236);
 
 
 }
 #maincontainer {
     width: 100% !important;
+    margin-top: 0;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    background-image: url(images/americanflag.jpeg);
-    background-size: cover ;
+    /* background-image: url(images/americanflag.jpeg); */
+    background-size: contain ;
     background-position: center ;
     background-repeat: no-repeat;
-
-
 }
 
-#humanity {
-    margin-left: 33rem !important;
-    color: aliceblue;
+#flagcontainer {
+    position: relative;
+    text-align: center;
+    
 }
+
+
+
+#americanflag {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#centeredtext {
+    width: 90rem;
+    height: 10rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    font-size: 4.5rem;
+}
+
+
+
 
 #campaignphoto {
-    max-width: 100px !important;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    max-width: 6.25rem !important;
     height: auto !important;
-    margin-left: 36rem !important;
+    
 
 }
 
 #navbar {
-    width: 100%;
+    margin-left: 32rem;
 
 }
 
 
 
 #mainphoto {
+    margin-top: 16.6rem;
     object-fit: fill !important;
     background-image: url(images/Shrek_announce_bid_for_president_2_1455754661573_7057242_ver1.0.jpg);
     height: 50rem;
@@ -54,17 +81,75 @@ body {
 
 }
 
-#secondcontainer {
-    height: 800px;
-    background-color: rgb(216, 216, 216);
+#ourviewscontainer {
+    margin-top: 6rem;
+    height: 15rem;
+    background-color: rgb(70, 72, 207);
+    
 }
 
-#cardplacement {
-    margin-top: 9rem;
-    margin-left: 2rem;
+#jointheogre {
+    position: absolute;
+    margin-bottom: 5rem;
+    font-size: 11rem;
+    /* margin-top: 1.5rem; */
+    margin-left: 19rem;
+    color: azure;
 }
+
+#cardsrow {
+    height: 20rem;
+    margin-top: 0;
+}
+
+
+
+#cardcontainer {
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+#firstcardsize {
+    height:20rem;
+
+}
+
+
+#btnbottom1 {
+    /* margin-top: 1.9rem; */
+    
+}
+
+#secondcardsize {
+    height:28.6rem;
+}
+
+#princesspic {
+    height: 14rem;
+}
+
+#btnbottom2 {
+    margin-top: 1.9rem;
+
+}
+
+#thirdcardsize {
+    height: 28.6rem;
+}
+
+#btnbottom3 {
+    margin-top: 2rem;
+}
+
 
 #videocontainer {
-    height: 800px;
+    margin-top: 5rem;
+    height: auto;
     background-color: black;
+    margin-bottom: 5rem;
 }
+
