@@ -17,26 +17,19 @@
 
 <body>
     <div class="container-fluid" id="maincontainer">
-        <div class="row">
-            <h2 id="humanity">Humanity First</h2>
+        <div id="flagcontainer">
+            <img src="images/us-flag.jpg" id="americanflag">
+            <div id="centeredtext">Shrek for Constable District 1</div>
+            <a href="index.html"><img src="images/SHrek-HOGRE-poster.jpg" id="campaignphoto"></a>    
         </div>
-        <div class="row">
-            <img src="images/SHrek-HOGRE-poster.jpg" id="campaignphoto">
-        </div>
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
-                <a class="navbar-brand" href="index.html">Shrek 2019</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+        <div class="row ">
+            <nav class="navbar navbar-expand-lg navbar-light"  id="navbar">
+                <div class="collapse navbar-collapse navbar-light" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-5">
+                        <li class="nav-item active pr-5">
                             <a class="nav-link" href="#">Meet Shrek <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown mr-5 pl-5">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Policies
@@ -44,72 +37,51 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a href="#policies" class="dropdown-item">Warrants</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item">Subpoenas/Summonses</a>
+                                <a href="#policies" class="dropdown-item">Subpoenas/Summonses</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item">My Service for Free</a>
+                                <a href="#policies" class="dropdown-item">My Service for Free</a>
                             </div>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item active mr-5 pl-5">
                             <a class="nav-link" href="#">Events</a>
                         </li>
-                        <li class="nav-item active mr-3">
-                            <a class="nav-link active" href="#">Volunteer</a>
+                        <li class="nav-item active mr-5 pl-5">
+                            <a class="nav-link active" href="#videocontainer">Video</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
-    </div>
-    <div class="container-fluid" id="mainphoto">
-        <div class="row">
-            <div class="col" id="sloganstatement">
-                <p class="text-left">
-                    "Let's do this thing?"
-                </p>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-    <div class="container-fluid" id="secondcontainer">
-        <div class="row">
-            <div class="col">
-                <a href="#" id="policies"></a>
-                Our Views
-
-            </div>
-
-        </div>
-        <div class="row" id="cardplacement">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                    <div class="card-body">
+        <div class="row justify-content-center" id="cardsrow">
+            <div class="col-2 mr-5" id="cardplacement">
+                <div class="card">
+                    <img class="card-img-top image-fluid" src="images/shrekwarrant.png" alt="Card image cap" id="shrekwarrantpic">
+                    <div class="card-body" id="btnbottom1">
                         <h5 class="card-title">Warrants</h5>
-                        <p class="card-text">What's truly going to keep crime low in this kingdom? Me executing arrest
+                        <p class="card-text">What's truly going to keep crime low in this kingdom? Me executing
+                            arrest
                             warrants.</p>
                         <a href="#" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                    <div class="card-body">
+
+            <div class="col-2 mr-5" id="cardplacement">
+                <div class="card" id="secondcardsize">
+                    <img class="card-img-top img-fluid" src="images/55.jpg" alt="Card image cap" id="princesspic">
+                    <div class="card-body" id="btnbottom2">
                         <h5 class="card-title">Subpoenas/Summonses</h5>
-                        <p class="card-text">Having problems getting witnesses to testify? Don't worry, I'll make them.
+                        <p class="card-text">Having problems getting witnesses to testify? Don't worry, I'll make
+                            them.
                         </p>
                         <a href="#" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-                    <div class="card-body">
+            <div class="col-2 mr-5" id="cardplacement">
+                <div class="card" id="thirdcardsize">
+                    <img class="card-img-top img-fluid" src="images/shrekdonkey.png" alt="Card image cap">
+                    <div class="card-body" id="btnbottom3">
                         <h5 class="card-title">Pay Services, For Free</h5>
                         <p class="card-text">Payment? I don't want it.</p>
                         <a href="#" class="btn btn-primary">Read More</a>
@@ -117,9 +89,28 @@
                 </div>
             </div>
         </div>
-    </div>
+        <div class="container-fluid" id="mainphoto">
+            <div class="row">
+                <div class="col" id="sloganstatement">
+                    <p class="text-left">
+                        "Let's do this thing?"
+                    </p>
+                </div>
+            </div>
+        </div>
 
-    <div class="container-fluid" id="videocontainer">
+
+
+
+
+        <div class="container-fluid" id="ourviewscontainer">
+                    <a href="#" id="policies"></a>
+                    <p id="jointheogre">JOIN THE OGRE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="videocontainer">
         <div class="row">
             <div class="col">
                 <div class="embed-responsive embed-responsive-16by9">
