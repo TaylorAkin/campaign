@@ -16,44 +16,63 @@
 </head>
 
 <body>
-    <div class="container-fluid" id="maincontainer">
-        <div id="flagcontainer">
-            <img src="images/us-flag.jpg" id="americanflag">
-            <div id="centeredtext">Shrek for Constable District 1</div>
-            <a href="index.html"><img src="images/SHrek-HOGRE-poster.jpg" id="campaignphoto"></a>    
+    <div class="container-fluid h-40" id="topcontainer">
+        <div class="row">
+            <div class="col" id="flagcontainer">
+                <div class="d-flex align-items-start" id="centeredtext">Shrek for Constable District 1</div>
+                <a href="index.html"><img src="images/SHrek-HOGRE-poster.jpg" class="h-25 mx-auto d-flex" id="campaignphoto"></a>
+            </div>
         </div>
-        <div class="row ">
-            <nav class="navbar navbar-expand-lg navbar-light"  id="navbar">
-                <div class="collapse navbar-collapse navbar-light" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-5">
-                        <li class="nav-item active pr-5">
-                            <a class="nav-link" href="#">Meet Shrek <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item dropdown mr-5 pl-5">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Policies
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a href="#policies" class="dropdown-item">Warrants</a>
-                                <div class="dropdown-divider"></div>
-                                <a href="#policies" class="dropdown-item">Subpoenas/Summonses</a>
-                                <div class="dropdown-divider"></div>
-                                <a href="#policies" class="dropdown-item">My Service for Free</a>
-                            </div>
-                        </li>
-                        <li class="nav-item active mr-5 pl-5">
-                            <a class="nav-link" href="#">Events</a>
-                        </li>
-                        <li class="nav-item active mr-5 pl-5">
-                            <a class="nav-link active" href="#videocontainer">Video</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Shrek 2019</a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://www.dreamworks.com/movies/shrek" target="blank">Meet
+                                    Shrek <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Policies</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="http://www.fayettesheriff.com/?page_id=15" target="blank">Warrants</a>
+                                    <a class="dropdown-item" href="https://litigation.findlaw.com/going-to-court/what-is-a-subpoena.html"
+                                        target="blank">Subpoenas/Summonses</a>
+                                    <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Constables_in_the_United_States"
+                                        target="blank">Free Compensation</a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://www.google.com/search?q=shrek+events&oq=shrek+events&aqs=chrome..69i57j0l5.2263j0j4&sourceid=chrome&ie=UTF-8"
+                                    target="blank">Events</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#videocontainer" target="blank">Video</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
         </div>
+    </div>
+
+    <div class="container-fluid">
         <div class="row justify-content-center" id="cardsrow">
-            <div class="col-2 mr-5" id="cardplacement">
+            <div class="col" id="cardplacement">
                 <div class="card">
                     <img class="card-img-top image-fluid" src="images/shrekwarrant.png" alt="Card image cap" id="shrekwarrantpic">
                     <div class="card-body" id="btnbottom1">
@@ -61,12 +80,13 @@
                         <p class="card-text">What's truly going to keep crime low in this kingdom? Me executing
                             arrest
                             warrants.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <a href="http://www.fayettesheriff.com/?page_id=15" target="blank" class="btn btn-primary">Read
+                            More</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-2 mr-5" id="cardplacement">
+            <div class="col " id="cardplacement">
                 <div class="card" id="secondcardsize">
                     <img class="card-img-top img-fluid" src="images/55.jpg" alt="Card image cap" id="princesspic">
                     <div class="card-body" id="btnbottom2">
@@ -74,45 +94,53 @@
                         <p class="card-text">Having problems getting witnesses to testify? Don't worry, I'll make
                             them.
                         </p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <a href="https://litigation.findlaw.com/going-to-court/what-is-a-subpoena.html" target="blank"
+                            class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-2 mr-5" id="cardplacement">
+            <div class="col " id="cardplacement">
                 <div class="card" id="thirdcardsize">
                     <img class="card-img-top img-fluid" src="images/shrekdonkey.png" alt="Card image cap">
                     <div class="card-body" id="btnbottom3">
                         <h5 class="card-title">Pay Services, For Free</h5>
                         <p class="card-text">Payment? I don't want it.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <a href="https://www.google.com/search?q=shrek+events&oq=shrek+events&aqs=chrome..69i57j0l5.2263j0j4&sourceid=chrome&ie=UTF-8"
+                            target="blank" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid" id="mainphoto">
-            <div class="row">
-                <div class="col" id="sloganstatement">
-                    <p class="text-left">
-                        "Let's do this thing?"
-                    </p>
-                </div>
-            </div>
-        </div>
+    </div>
 
 
-
-
-
-        <div class="container-fluid" id="ourviewscontainer">
-                    <a href="#" id="policies"></a>
-                    <p id="jointheogre">JOIN THE OGRE</p>
-                </div>
+    <div class="container-fluid" id="thirdcontainer">
+        <div class="row h-100 justify-content-center">
+            <div class="col h-100 d-flex justify-content-center" id="shrekdonkey">
+                <!-- <img class="img-fluid" src="" alt=""> -->
+                <p class="align-self-end">
+                    "Let's do this thing?"
+                </p>
             </div>
         </div>
     </div>
-    <div class="container" id="videocontainer">
+
+
+
+
+
+    <div class="container-fluid" id="ourviewscontainer">
+        <div class="row h-100 justify-content-center">
+            <div class="col h-100 d-flex justify-content-center">
+                <p class="align-self-center" id="jointheogre">JOIN THE OGRE</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mb-5" id="videocontainer">
         <div class="row">
-            <div class="col">
+            <div class="col mb-5">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/miDvziCKeI8" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>

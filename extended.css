@@ -1,131 +1,135 @@
-
-body {
+html, body {
     background-color: rgb(236, 236, 236);
-
+    height: 100%;
 
 }
-#maincontainer {
+
+#topcontainer {
     width: 100% !important;
+    height: 280px;
     margin-top: 0;
     margin-left: 0 !important;
-    margin-right: 0 !important;
+    margin-right: 0 !important; 
     /* background-image: url(images/americanflag.jpeg); */
-    background-size: contain ;
-    background-position: center ;
-    background-repeat: no-repeat;
+    /* background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
+
 
 #flagcontainer {
-    position: relative;
-    text-align: center;
-    
-}
-
-
-
-#americanflag {
+    height: auto;
     width: 100%;
-    height: 300px;
-    overflow: hidden;
+    position: relative;
+    /* text-align: center;
+    width: 100%;  */
+     background-image: url(images/us-flag.jpg);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat; 
+
 }
+
+/* #americanflag {
+    width: 100%;
+    height: 250px; */
+    /* overflow: hidden;
+} */
 
 #centeredtext {
-    width: 90rem;
+    /* width: 90rem;
     height: 10rem;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     color: azure;
-    font-size: 4.5rem;
+    /* font-size: 4.5rem; */
 }
 
-
-
-
-#campaignphoto {
+/* #campaignphoto {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 45%;
-    max-width: 6.25rem !important;
     height: auto !important;
-    
+    max-width: %;
+} */
 
-}
+/* #navbar {
+    margin-left: 14rem;
+} */
 
-#navbar {
-    margin-left: 32rem;
-
-}
-
-
-
-#mainphoto {
-    margin-top: 16.6rem;
+#thirdcontainer {
+    width: auto;
+    height: 300px;
+    /* margin-top: 16.6rem;
     object-fit: fill !important;
-    background-image: url(images/Shrek_announce_bid_for_president_2_1455754661573_7057242_ver1.0.jpg);
     height: 50rem;
-    background-size: cover ;
-    background-position: center ;
+     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position-y: 0rem;
-
+    background-position-y: 0rem;  */
 }
 
-#sloganstatement {
+#shrekdonkey {
     /* height: 300px !important; */
-    margin-top: 30rem;
+    /* margin-top: 30rem;
     margin-left: 12rem !important;
-    font-size: 6rem;
+    font-size: 6rem; */
+    position: relative;
+    background-image: url(images/Shrek_announce_bid_for_president_2_1455754661573_7057242_ver1.0.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat; 
     color: antiquewhite;
 
 }
-
-#ourviewscontainer {
-    margin-top: 6rem;
-    height: 15rem;
-    background-color: rgb(70, 72, 207);
     
-}
+
+
+ #ourviewscontainer {
+    /* margin-top: 6rem;
+    height: 15rem; */
+    width: auto;
+    height: 90px;
+    background-color: rgb(70, 72, 207); 
+    
+ }
+
 
 #jointheogre {
-    position: absolute;
+    /* position: absolute;
     margin-bottom: 5rem;
     font-size: 11rem;
     /* margin-top: 1.5rem; */
-    margin-left: 19rem;
+    /* margin-left: 19rem;  */
     color: azure;
 }
 
-#cardsrow {
+/* #cardsrow {
     height: 20rem;
     margin-top: 0;
+    width: 100%;
 }
-
-
 
 #cardcontainer {
     height: 30rem;
     background-color: rgb(255, 255, 255);
     margin-top: 5rem;
     margin-left: 5rem;
-    margin-right: 5rem;
+    margin-right: 5rem; */
 
+
+/* #firstcardsize {
+    height: 20rem;
 }
-
-#firstcardsize {
-    height:20rem;
-
-}
-
 
 #btnbottom1 {
-    /* margin-top: 1.9rem; */
-    
+    margin-top: 0;
 }
 
 #secondcardsize {
-    height:28.6rem;
+    height: 20rem;
 }
 
 #princesspic {
@@ -133,23 +137,26 @@ body {
 }
 
 #btnbottom2 {
-    margin-top: 1.9rem;
-
+    margin-top: 0;
 }
 
 #thirdcardsize {
-    height: 28.6rem;
+    height: 20rem;
 }
 
 #btnbottom3 {
-    margin-top: 2rem;
-}
-
+    margin-top: 0rem;
+} */
 
 #videocontainer {
-    margin-top: 5rem;
-    height: auto;
+    /* margin-top: 5rem;
+    height: auto; */
     background-color: black;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
 }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+    
 
