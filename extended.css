@@ -55,7 +55,7 @@ html, body {
 
 #thirdcontainer {
     width: auto;
-    height: 300px;
+    height: 400px;
     /* margin-top: 16.6rem;
     object-fit: fill !important;
     height: 50rem;
@@ -82,10 +82,9 @@ html, body {
 
 
  #ourviewscontainer {
-    /* margin-top: 6rem;
-    height: 15rem; */
+
     width: auto;
-    height: 90px;
+    height: 120px;
     background-color: rgb(70, 72, 207); 
     
  }
@@ -149,7 +148,7 @@ html, body {
 } 
 
 #videocontainer {
-    /* margin-top: 5rem;
+    /*] margin-top: 5rem;
     height: auto; */
     background-color: black;
     /* margin-bottom: 5rem; */
@@ -160,3 +159,31 @@ html, body {
 
     
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1300px) {
+    /* Styles */
+    #ourviewscontainer {
+
+        width: auto;
+        height: 300px;
+        background-color: rgb(70, 72, 207); 
+        font-size: 15rem;
+        
+     }
+     #shrekdonkey {
+        /* height: 300px !important; */
+        /* margin-top: 30rem;
+        margin-left: 12rem !important;
+        font-size: 6rem; */
+        position: relative;
+        background-image: url(images/Shrek_announce_bid_for_president_2_1455754661573_7057242_ver1.0.jpg);
+        background-size: auto auto;
+        min-height: 100%;
+        background-position: top center;
+        background-repeat: no-repeat; 
+        color: antiquewhite;
+    
+    }
+   
+    
+    }
