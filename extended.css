@@ -125,22 +125,28 @@ html, body {
 #secondcardsize {
     height: 20rem;
 }
+*/
 
-#princesspic {
+#shrekwarrantpic {
+    /* height: 14rem;
+    width: auto; */
+}
+
+ #princesspic {
     height: 14rem;
 }
 
 #btnbottom2 {
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 
 #thirdcardsize {
-    height: 20rem;
+    /* height: 20rem; */
 }
 
 #btnbottom3 {
-    margin-top: 0rem;
-} */
+    /* margin-top: 0rem; */
+} 
 
 #videocontainer {
     /* margin-top: 5rem;
