@@ -1,5 +1,5 @@
 html, body {
-    background-color: rgb(226, 219, 219);
+    background-color: rgb(255, 248, 248);
     height: 100%;
 
 }
@@ -40,14 +40,8 @@ html, body {
 } */
 
 #centeredtext {
-    /* width: 90rem;
-    height: 10rem;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     color: rgb(136, 169, 212);
-    /* font-size: 4.5rem; */
+   
 }
 
 #campaignphoto {
@@ -131,22 +125,28 @@ html, body {
 #secondcardsize {
     height: 20rem;
 }
+*/
 
-#princesspic {
+#shrekwarrantpic {
+    /* height: 14rem;
+    width: auto; */
+}
+
+ #princesspic {
     height: 14rem;
 }
 
 #btnbottom2 {
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 
 #thirdcardsize {
-    height: 20rem;
+    /* height: 20rem; */
 }
 
 #btnbottom3 {
-    margin-top: 0rem;
-} */
+    /* margin-top: 0rem; */
+} 
 
 #videocontainer {
     /* margin-top: 5rem;
