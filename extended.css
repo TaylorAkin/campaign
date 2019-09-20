@@ -1,32 +1,35 @@
 html, body {
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(226, 219, 219);
     height: 100%;
 
 }
 
 #topcontainer {
-    width: 100% !important;
-    height: 280px;
+    /* width: 100% !important;
+    height: 280px; */
     margin-top: 0;
     margin-left: 0 !important;
     margin-right: 0 !important; 
     /* background-image: url(images/americanflag.jpeg); */
     /* background-size: contain;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat; */
 }
 
 
 #flagcontainer {
-    height: auto;
-    width: 100%;
+    /* height: auto;
+    width: 100%; */
+    min-height: 190px;
     position: relative;
     /* text-align: center;
     width: 100%;  */
      background-image: url(images/us-flag.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: top center;
     background-repeat: no-repeat; 
+    
+    
 
 }
 
@@ -43,17 +46,14 @@ html, body {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%); */
-    color: azure;
+    color: rgb(136, 169, 212);
     /* font-size: 4.5rem; */
 }
 
-/* #campaignphoto {
-    position: absolute;
-    top: 35%;
-    left: 45%;
-    height: auto !important;
-    max-width: %;
-} */
+#campaignphoto {
+    height: 20% !important;
+   
+}
 
 /* #navbar {
     margin-left: 14rem;
